@@ -221,7 +221,7 @@ int main(int argc, char* argv[]) {
                                 output << "\tMakeUnkn(" << stream.str() << ", 1); MakeCode(" << stream.str() << ");" << std::endl;
                             }
 
-                            output << "};";
+                            output << "}";
                             output.close();
 
                             std::cout << "[*] Finished!" << std::endl;
