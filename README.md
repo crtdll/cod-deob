@@ -1,5 +1,5 @@
-# Cold War - Code Flow Deobfuscation
-A program written in C++ to remove and cleanup code flow obfuscation seen in Activisions latest titles (**Call of Duty: Black Ops Cold War** & **Call of Duty: Modern Warfare**)
+# Call of Duty - Code Flow Deobfuscation
+A program written in C++ to remove and cleanup code flow obfuscation seen in Call of Duties latest titles (**Call of Duty: Black Ops Cold War** & **Call of Duty: Modern Warfare**)
 
 ## Brief Explanation
 A tactic created by Treyarch to make reverse engineering their recent titles a pain is to add junk instructions specifically targetting how IDA parses opcodes. What you end up with is a junk instruction followed by a call that loops back to a few bytes into the current location with junk opcodes that vary, making it difficult to scan (see below).
